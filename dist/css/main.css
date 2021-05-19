@@ -1,6 +1,7 @@
 body {
   background: white;
   color: #000000;
+  margin: 40px;
 }
 
 .main {
@@ -9,6 +10,21 @@ body {
 }
 
 .main p {
-  font-color: #000000;
+  color: #000000;
+}
+
+.nav-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.right-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=main.css.map */

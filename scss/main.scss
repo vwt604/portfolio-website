@@ -4,6 +4,7 @@
 body {
   background: white;
   color: $text-color;
+  margin: 40px;
 };
 
 .main {
@@ -11,6 +12,15 @@ body {
   margin: 0 auto;
 
   p {
-    font-color: $text-color;  
+    color: $text-color;  
   }
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-side {
+  display: flex;
 }
