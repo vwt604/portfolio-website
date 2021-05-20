@@ -14,7 +14,19 @@ body {
 }
 
 .jumbotron {
+  position: relative;
   height: 100vh;
+}
+
+.scroll-button.animate-scroll {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 30px;
+  display: flex;
+}
+
+.arrow {
+  padding-right: 5px;
 }
 
 
